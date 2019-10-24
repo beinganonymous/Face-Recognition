@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/u45s80bvlx37rq8/face.pkl?dl=1'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1qY9L4Ku12l8OD5ADdu65Krnj5j-m43VY'
 export_file_name = 'face.pkl'
 
 classes = ['ben_afflek', 'elton_john', 'jerry_seinfeld', 'madonna', 'mindy_kaling']
