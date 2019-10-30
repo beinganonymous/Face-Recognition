@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=15ycrSnftRSNF9v9Pte0rtbg7RxcrxciY'
-export_file_name = 'face5.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=18OrUPo7GcSLhJqfbH2H4R-nrv5yJuE6b'
+export_file_name = 'face6.pkl'
 
-classes = ['ben_afflek','chetan','elton_john','jerry_seinfeld','madonna','mindy_kaling']
+classes = ['ben_afflek','chetan_patil','elton_john','jerry_seinfeld','madonna','mindy_kaling']
 path = Path(__file__).parent
 
 app = Starlette()
